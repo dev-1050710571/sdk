@@ -6,7 +6,7 @@ Allows customizing the default retry configuration. It is only permitted in meth
 
 | Name                      | Type                                | Description                                                                                | Example     |
 | ------------------------- | ----------------------------------- | ------------------------------------------------------------------------------------------ | ----------- |
-| `strategy`                | `"backoff" | "none"`                | The retry strategy to use.                                                                 | `"backoff"` |
+| `strategy`                | `"backoff"` | `"none"`                | The retry strategy to use.                                                                 | `"backoff"` |
 | `backoff`                 | [BackoffStrategy](#backoffstrategy) | When strategy is "backoff", this configurates for the backoff parameters.                  |             |
 | `retryConnectionErrors`   | `*boolean*`                         | When strategy is "backoff", this determines whether or not to retry on connection errors.  | `true`      |
 
